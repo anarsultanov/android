@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources>	
+														  
     <string name="wait">Espere…</string>
     <string name="Reports">Informes</string>
-    <string name="about">Aplicación para smartphones Samsung, que bloquea anuncios y rastreadores en
-        Chrome.
+    <string name="about">Aplicación para smartphones Samsung, que bloquea anuncios y rastreadores en Chrome.
         ¡La carga del sitio web aumenta hasta un 100%!
     </string>
     <string name="isSupported">Espere</string>
@@ -12,41 +11,40 @@
 
     <string name="preference_policy">policy-preference</string>
     <string name="isPolicyEnabled">isPolicyEnabled</string>
-    <string name="block_enabled">Adhell activado. Ahora estás a salvo</string>
+    <string name="block_enabled">Adhell activado. Ahora está a salvo</string>
     <string name="block_disabled">Adhell desactivado</string>
     <string name="enable_blocker">Habilitar el bloqueador de contenido</string>
-    <string name="disable_blocker">Inhabilitar Adhell</string>
-    <string name="works_whit_samsung">Este dispositivo no es compatible.
-        Actualmente sólo funciona con dispositvos Samsung
+    <string name="disable_blocker">Deshabilitar Adhell</string>
+    <string name="works_whit_samsung">Este dispositivo no es compatible. Actualmente sólo funciona con
+	dispositvos Samsung
     </string>
     <string name="android_version_not_supported">Esta versión de Android, no está soportada</string>
     <string name="please_wait">Por favor espere… Habilitando Adhell</string>
-    <string name="wait_deleting">Por favor espere… Inhabilitando Adhell</string>
+    <string name="wait_deleting">Por favor espere… Deshabilitando Adhell</string>
     <string name="adhell_not_supported">Adhell aún no es compatible con su dispositivo.
     </string>
     <string name="yes_notify_me">¡Sí! ¡Notificarme!</string>
     <string name="no_thanks">¡No, gracias!</string>
-    <string name="thank_you_we_will_notify_you">Se te notificará, cuando tu dispostivo, sea
+    <string name="thank_you_we_will_notify_you">Se le notificará, cuando su dispostivo, sea
         compatible con Adhell.
     </string>
-    <string name="notify_you_2">Tu dispositivo no es compatible. Pero le notificaremos en {{email}}
-        cuando
-        agreguemos tu dispositivo a Adhell. Gracias
+    <string name="notify_you_2">Su dispositivo no es compatible. Pero le notificaremos en {{email}}
+        cuando agreguemos tu dispositivo a Adhell. Gracias
     </string>
-    <string name="edit_email">¿Email incorrecto? ¡Cambialo!</string>
+    <string name="edit_email">¿Email incorrecto? ¡Cámbielo!</string>
     <string name="edit">Editar</string>
-    <string name="to_enable_adhell">Para habilitar Adhell, antes necesitas activar el modo de
-        administración para que la aplicación funcione.
-        Adhell usa permisos avanzados de administración y configuración , para ello, debe habilitar
-        el administrador de dispositivo.
+    <string name="to_enable_adhell">
+        Esta aplicación utiliza permisos de administrador del dispositivo (android.permission.BIND_DEVICE_ADMIN).
+        \nPara habilitar Adhell, debe activar el modo administrador para la aplicación.
+        Adhell usa instrumentos subyacentes de Samsung, y estos instrumentos requieren privilegios de administrador.
     </string>
     <string name="turn_on_admin">Activar Administrador</string>
-    <string name="knox">Adhell utiliza el firewall de Samsung, para ello, por favor utilice Samsung
-        license. Es gratis.
+    <string name="knox">Para bloquear anuncios, Adhell utiliza cortafuegos de Samsung. Para usarlo, por favor
+	active la licencia de Samsung. Es gratis.
     </string>
     <string name="activate_knox">Activar Knox</string>
-    <string name="no_internet_connection">Parece que su dispositivo, no está conectado a la
-        Red
+    <string name="no_internet_connection">Parece que su dispositivo, no está conectado
+	a la Red			
     </string>
     <string name="failed_to_activate_knox_message">Error en la activación de la licencia de Knox
     </string>
@@ -55,104 +53,173 @@
     <string name="block_button_text_turn_off">Apagar</string>
     <string name="block_button_text_turn_on">Encender</string>
     <string name="block_button_text_enabling">Habilitando…</string>
-    <string name="block_button_text_disabling">Inhabilitando…</string>
-    <string name="edit_block_list">Edita bloqueo de URL\'s</string>
-    <string name="whitelist">Permitidas</string>
-    <string name="blocklist">Bloqueadas</string>
+    <string name="block_button_text_disabling">Deshabilitando…</string>
+    <string name="edit_block_list">Editar bloqueo de URL\'s</string>
+    <string name="whitelist">Mostrar lista blanca</string>
+    <string name="blocklist">Mostrar lista negra</string>
     <string name="back_to_main">Volver al inicio</string>
-    <string name="editAlert">¡Después de editar la lista negra y la lista blanca volver al menu
-        principal de Adhell,
-        inhabilite y habilite Adhell, para aplicar los cambios!
+    <string name="editAlert">Después de editar la lista blanca, regrese a la pantalla principal de Adhell
+        y pulse "Desactivar", luego pulse "Activar" para aplicar los cambios.
     </string>
-    <string name="allow_apps">Lista Apps</string>
-    <string name="delete_app">Apagar y Borra Adhell</string>
+    <string name="allow_apps">Administrar el uso en Aplicaciones</string>
+    <string name="delete_app">Apagar y borrar Adhell</string>
     <string name="delete_app_dialog_title">Borrar app</string>
-    <string name="delete_app_dialog_text">¿De verdad quieres apagar y eliminar Adhell?</string>
-    <string name="applist">Lista de Apps</string>
+    <string name="delete_app_dialog_text">¿De verdad quiere apagar y eliminar Adhell?</string>
+    <string name="applist">Lista de Aplicaciones</string>
     <string name="list_filter">Filtro</string>
     <string name="apply_filter">Filtrando</string>
     <string name="applying_filter">Espere, aplicando el filtro</string>
-    <string name="block_app_tab_label">Apps Activas</string>
-    <string name="allowed_app_tab_label">Apps Excluidas</string>
-    <string name="block_url_tab_label">Blocked URLs</string>
-    <string name="allowed_url_tab_label">URLs Permitidas</string>
-    <string name="test_report">Informe de prueba</string>
+    <string name="block_app_tab_label">Aplicaciones Activas</string>
+    <string name="allowed_app_tab_label">Aplicaciones Excluidas</string>
+    <string name="block_url_tab_label">URLs bloqueadas</string>
+    <string name="allowed_url_tab_label">URLs permitidas</string>
+    <string name="test_report">Informe de pruebas</string>
     <string name="adhell_settings">Ajustes</string>
     <string name="change_dns_button">Cambiar DNS</string>
     <string name="dns_1_address">Dirección DNS 1</string>
     <string name="dns_2_address">Dirección DNS 2</string>
+																	 
+																	 
     <string name="set_dns_button_text">Establecer DNS</string>
     <string name="cancel_text">Cancelar</string>
-    <string name="note_that_adhell_must_be_enabled">Use it only if you know what DNS for and what
-        benefits or problems editing could cause. Note that Adhell must be enabled.
+    <string name="note_that_adhell_must_be_enabled">Usar sólo si se conocen los beneficios o problemas
+        que podría causar la edición de los DNS. Tenga en cuenta que Adhell debe estar habilitado.
     </string>
     <string name="restore_defaults">Restaurar valores predeterminados</string>
+																 
+																		
     <string name="block">Bloquear</string>
-    <string name="manage_standard_url_package">Manage Standard Url Package</string>
+    <string name="manage_standard_url_package">Administrar paquete de URL estándar</string>
+    <string name="whitelist_ad_url">Añadir URLs a la lista blanca</string>
     <string name="block_custom_urls">Bloquear URLs personalizada</string>
     <string name="to_take_effect_turn_off_turn_on_adhell_after_editing_list">
-        To take effect Turn off -> Turn on Adhell after editing list.
+        Para que surja efecto Desactive -> Active Adhell después de editar la lista.
     </string>
 
-    <string name="package_disabler_fragment_title">Package disabler</string>
-    <string name="package_disabler_bottombar_title">Package disabler</string>
+	
+	
+	
+	
+	
+	
+	
+    <string name="package_disabler_fragment_title">Deshabilitador de paquetes</string>
+    <string name="package_disabler_bottombar_title">Deshabilitador de paquetes</string>
     <string name="app_support_fragment_title">Soporte de aplicaciones</string>
     <string name="to_be_done">Esta característica está en desarrollo</string>
     <string name="last_day_blocked">"Bloqueo en las últ. 24 horas: "</string>
     <string name="loading_saved_dns">Cargando direcciones de DNS guardadas</string>
     <string name="check_input_dns">Compruebe sus datos de entrada</string>
     <string name="enable_adhell_for_dns">Adhell debe estar habilitado</string>
-    <string name="changed_dns">Dns addresses has been changed"</string>
-    <string name="restored_dns">DNS has been restored to defaults. You should to enable Adhell
-        again.
+    <string name="changed_dns">Las direcciones DNS se han cambiado"</string>
+    <string name="restored_dns">Los DNS han sido restaurado a los valores predeterminados.
+        Debe habilitar Adhell de nuevo.
     </string>
-    <string name="wait_loading_apps_list">"Por favor espere, Cargando la lista de aplicaciones"
-    </string>
-    <string name="wait_removing_app_from_whitelist">"Espere, eliminando la aplicación de la lista
-        blanca"
+    <string name="wait_loading_apps_list">"Por favor espere, cargando la lista de aplicaciones"</string>
+    <string name="wait_removing_app_from_whitelist">"Espere, eliminando la aplicación de la lista blanca"
     </string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hola parte blanca</string>
-    <string name="whitelist_ad_url">URL de publicidad lista blanca</string>
-    <string name="valid_subs">Your subscription is valid</string>
-    <string name="your_device_running_old_knox_version">" Your device running old version of Knox.
-        So this function may work unstable. Sorry "
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="support_app_development">Apoye el desarrollo de la aplicación</string>
+																			   
+													  
+																				  
+												 
+																		
+			 
+    <string name="add_provider">Añadir proveedor de URL</string>
+																						  
+														   
+    <string name="show_custom_providers">Mostrar proveedores personalizados</string>
+    <string name="delete_url">Borrar URL</string>
+    <string name="update_all_providers">Actualizar todos los proveedores</string>
+																						 
+    <string name="app_list_sorted_by_date">Lista ordenada por fecha de instalación</string>
+    <string name="app_list_sorted_by_alphabet">Lista ordenada alfabéticamente</string>
+    <string name="subscribe">Suscribirse por {{price}} al mes</string>
+    <string name="subscribe_three_month">Suscribirse por {{price}} para 3 meses con un descuento del 20%
+    </string>		 
+    <string name="premium_subscriber_message">Gracias por ser suscriptor premium</string>
+    <string name="already_premium">Ya es Premium</string>
+    <string name="custom_url_provider_message">
+        Nota. Puede agregar su propio enlace de hosts (por ejemplo, https://adaway.org/hosts.txt).
+        Puede bloquear hasta 15 000 URL.
+        Adhell ya tiene un paquete estándar decente, por lo que, en general, no necesita agregar paquetes
+        adicionales.
+        Esta función es experimental por ahora y solo para entusiastas.														  
     </string>
-    <string name="add_provider">Add Url Provider</string>
-    <string name="help_developers_to_keep_up_development">Support Adhell development.</string>
-    <string name="show_custom_providers">" There is no Pro features for now,"</string>
-    <string name="delete_url">" but you could really help us to develop cool product by
-        subscribing."
+																				
+    <string name="your_device_running_old_knox_version">
+        Su dispositivo ejecuta una versión anterior de Knox. Esta función puede funcionar de forma inestable. Lo siento
     </string>
-    <string name="update_all_providers">" There will be pro features as well in near future)"
+    <string name="valid_subs">Su suscripción es válida</string>
+    <string name="adblock_whitelist">Aplicaciones que usan Adblock</string>
+    <string name="application_icon">Icono de la aplicación</string>
+    <string name="only_for_premium">Permisos de aplicaciones disponibles solo para suscriptores premium.
+        Tenga en cuenta que los permisos de las aplicaciones solo funcionan con aplicaciones
+        que no son del sistema (aplicaciones que ha instalado manualmente).
+        Ofrecemos 7 días de prueba gratis.</string>
+    <string name="subs_not_supported_text_view">El modo de suscripción no es compatible. Por favor,
+        actualice los servicios de Google Play
     </string>
-    <string name="app_list_sorted_by_date">" You can cancel subscription anytime on Adhell Google
-        Play page"
+    <string name="billing_not_supported">No soportado</string>
+    <string name="sort_by_alphabet">Ordenar alfabéticamente</string>
+    <string name="sort_by_install_time">Ordenar por fecha de instalación</string>
+    <string name="sort_by_disabled">Mostrar las deshabilitadas primero</string>
+																							
+																						  
+																					
+																										   
+																												  
+																								
+																					   
+    <string name="app_list_sorted_by_disabled">Las aplicaciones deshabilitadas se muestran primero</string>
+    <string name="app_profiles_tab_title">Perfiles</string>
+    <string name="app_permissions_tab_title">Permisos</string>
+    <string name="profiles_explanation">
+        Perfiles. Nueva función de Adhell. Agosto 2017
+
+        \n\nCon esta actualización, puede crear perfiles para diferentes necesidades.
+
+        \n\nCon los perfiles, puede administrar la configuración del cortafuegos, la deshabilitación de paquetes y los permisos.
+
+        \n\nAntes de esta versión solo tenía un perfil, pero ahora puede crear todos los que quiera
+        y activarlos\/desactivarlos en diferentes situaciones.
+
+        \n\nPor ejemplo, puede crear el perfil \"Bloatware\" y deshabilitar todas las
+        aplicaciones no deseadas para siempre.
+        \nCree el perfil \"Entretenimiento\", agregue todas las aplicaciones\/sitios web de entretenimiento
+        y bloquéelos cuando necesite concentrarse en el trabajo.
+
+        \n\nDe forma predeterminada, he creado \"Política predeterminada\" para todo el mundo
+        y moví todas las configuraciones actuales (espero que funcione como se esperaba).
+        No tiene permiso para eliminar \"Política predeterminada\".
+
+        \n\nLa función de perfiles es gratuita (pero cambiar las políticas de \"Permisos\" sigue
+        siendo solo para usuarios premium).
+
+        \n\nEs posible que los UX y UI en general sean confusos. Pero después de este lanzamiento,
+        un amigo mío (que es tan amable de ayudar) trabajará en ello para ofrecerte una mejor experiencia.
+
+        \n\nQuiero agradecer a todas las personas que contribuyen al proyecto al proporcionar comentarios,
+        traducir Adhell a otros idiomas, discutirlo en foros y sugerir nuevas funciones.
+        Aprecio tu valioso tiempo. Gracias.
+
+        \n\nManténganse al tanto. Si todo sale como se espera,
+        Adhell tendrá más funciones en un futuro cercano.
     </string>
-    <string name="app_list_sorted_by_alphabet">" List is sorted alphabetically"</string>
-    <string name="support_app_development">Support app development</string>
-    <string name="custom_url_provider_message">" Note. You can add your own hosts link (e.g.
-        https://adaway.org/hosts.txt). You can block up to 15 000 urls. Adhell already has decent
-        standard package so in general you does not need to add additional packages. This feature is
-        experimental for now and only for enthusiasts. "
+    <string name="blog">Blog</string>
+    <string name="only_for_premium_title">Solo para Premium</string>
+    <string name="default_policy_name">Política predeterminada</string>
+    <string name="last_modified">Última modificación: {{lastModified}}</string>
+    <string name="number_packages_disabled">{{numberOfDisabledPackages}} paquetes desactivados</string>
+    <string name="number_of_hosts">{{numberOfHosts}} paquetes de host</string>
+    <string name="custom_domains_blocked">{{numberOfDomainsBlockedByUser}} dominios personalizados bloqueados
     </string>
-    <string name="already_premium">Already Premium</string>
-    <string name="premium_subscriber_message">Thank you for being premium subscriber</string>
-    <string name="subscribe">Subscribe for {{price}} per month</string>
-    <string name="adblock_whitelist">Turn on or off Adblock for apps</string>
-    <string name="application_icon">App Icon</string>
-    <string name="only_for_premium">App Permissions available only for premium subscribers. Note
-        that App Permissions work only with non-system apps (apps that you have installed manually).
-        For now only 4 permissions are available
+    <string name="number_of_domains_whitelisted">{{numberOfWhitelistedDomains}} dominios incluidos
+        en la lista blanca
     </string>
-    <string name="subs_not_supported_text_view">Subscription mode are not supported. Please update
-        Google Play Services
+    <string name="number_of_permissions_restricted">{{numberOfRestrictedPermissions}} permisos
+        restringidos
     </string>
-    <string name="billing_not_supported">Not Supported</string>
-    <string name="sort_by_alphabet">Sort alphabetically</string>
-    <string name="sort_by_install_time">Sort by install time</string>
-    <string name="sort_by_disabled">Show disabled first</string>
-    <string name="app_list_sorted_by_disabled">Disabled apps are shown first</string>
-    <string name="subscribe_three_month">Subscribe for {{price}} per 3 month with 20% discount</string>
 </resources>
